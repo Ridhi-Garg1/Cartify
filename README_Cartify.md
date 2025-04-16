@@ -1,6 +1,6 @@
-# 🛍️ ShopNest – MERN Stack eCommerce Website
+# 🛍️ Cartify – MERN Stack eCommerce Website
 
-**ShopNest** is a fully functional, production-ready eCommerce platform built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). It provides a seamless shopping experience with features like product browsing, filtering, variant selection, cart management, checkout with multiple payment gateways, and a secure admin dashboard for product and order management.
+**Cartify** is a fully functional, production-ready eCommerce platform built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). It provides a seamless shopping experience with features like product browsing, filtering, variant selection, cart management, checkout with multiple payment gateways, and a secure admin dashboard for product and order management.
 
 > 🔥 Deployed on **Render** (Frontend, Backend & Admin) for global accessibility.
 
@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [https://shopnest-frontend.onrender.com](https://shopnest-frontend.onrender.com)
+🔗 https://cartify-1-k2bg.onrender.com/
 
 ---
 
@@ -16,7 +16,7 @@
 
 - **Real-World Functionality** – Full shopping flow with product variants, payments, and order tracking.
 - **Admin Dashboard Included** – A secure panel for managing products, orders, and customers.
-- **Multiple Payment Options** – Supports Razorpay, Stripe, and Cash on Delivery.
+- **Multiple Payment Options** – Supports Razorpay and Cash on Delivery.
 - **Authentication** – Secure JWT-based login for both users and admins.
 - **Production Deployment** – Hosted on Render with environment configurations.
 - **Modern UI/UX** – Built using Tailwind CSS and Vite for fast and responsive interfaces.
@@ -32,7 +32,7 @@
 | Backend     | Node.js, Express.js                    |
 | Database    | MongoDB Atlas                          |
 | Auth        | JWT (JSON Web Token)                   |
-| Payments    | Stripe, Razorpay, Cash on Delivery     |
+| Payments    | Razorpay, Cash on Delivery             |
 | Storage     | Cloudinary, Multer                     |
 | Deployment  | Render (Frontend, Backend, Admin)      |
 
@@ -83,6 +83,7 @@ STRIPE_SECRET_KEY=your_stripe_key
 ```
 
 ---
+⚠️ Note: Stripe payment integration is currently a work in progress and may not function as expected. Please use Razorpay or Cash on Delivery for testing.
 
 ## ✨ Features Breakdown
 
@@ -90,7 +91,7 @@ STRIPE_SECRET_KEY=your_stripe_key
 
 - Browse, filter, and sort products
 - Select product size/variant and add to cart
-- Checkout using Razorpay, Stripe, or Cash on Delivery
+- Checkout using Razorpay, or Cash on Delivery
 - Secure login and user-specific order history
 
 ### 🛠️ Admin Features
@@ -115,15 +116,15 @@ STRIPE_SECRET_KEY=your_stripe_key
 - express, mongoose, cors, dotenv  
 - jsonwebtoken, bcrypt, validator  
 - multer, cloudinary  
-- stripe, razorpay  
+- razorpay  
 
 ---
 
 ## 💼 Author & Contact
 
-**👩‍💻 Author**: Sidhi Garg  
-📧 Email: [sidhigargofficial20@gmail.com](mailto:sidhigargofficial20@gmail.com)  
-🔗 LinkedIn: [https://www.linkedin.com/in/sidhi-garg-999932359/](https://www.linkedin.com/in/sidhi-garg-999932359/)
+**👩‍💻 Author**: Ridhi Garg  
+📧 Email: ridhigargofficial20@gmail.comm
+🔗 LinkedIn: https://www.linkedin.com/in/ridhi-garg-69292a359/
 
 ---
 
